@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/api/index" },
+    { "source": "/api/upload-token", "destination": "/api/upload-token" },
+    { "source": "/api/save-metadata", "destination": "/api/save-metadata" },
+    { "source": "/api/delete", "destination": "/api/delete" }
+  ]
+}
