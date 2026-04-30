@@ -1,5 +1,5 @@
 {
-  "name": "cloudx-node",
+  "name": "haidang-cloudx-node",
   "version": "1.0.0",
   "dependencies": {
     "@vercel/blob": "^0.23.4",
