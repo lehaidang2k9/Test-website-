@@ -8,7 +8,6 @@
     { "src": "/", "dest": "/api/index.php" },
     { "src": "/upload-token.php", "dest": "/api/upload-token.php" },
     { "src": "/save-metadata.php", "dest": "/api/save-metadata.php" },
-    { "src": "/delete.php", "dest": "/api/delete.php" },
-    { "src": "/(.*)", "dest": "/api/$1" }
+    { "src": "/delete.php", "dest": "/api/delete.php" }
   ]
 }
