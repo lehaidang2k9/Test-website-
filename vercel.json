@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.0"
+    }
+  },
+  "routes": [
+    { "src": "/", "dest": "/api/index.php" },
+    { "src": "/upload-token.php", "dest": "/api/upload-token.php" },
+    { "src": "/save-metadata.php", "dest": "/api/save-metadata.php" },
+    { "src": "/delete.php", "dest": "/api/delete.php" },
+    { "src": "/(.*)", "dest": "/api/$1" }
+  ]
+}
